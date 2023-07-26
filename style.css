@@ -1,0 +1,112 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/poppins-medium-webfont.woff)
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/roboto-medium-webfont.woff)
+}
+
+
+* {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    display: flex;
+}
+
+#pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name {
+    transform: translate(0, -50px);
+    font-size: 50px;
+    color: rgb(88, 0, 88);
+}
+
+#profile {
+    width: 350px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: beige;
+}
+
+#about >.title, #about >.body, #links {
+    margin: 20px;
+}
+
+#links {
+    align-self: flex-end;
+}
+#github, #linkedin, #twitter {
+    width: 30px;
+}
+
+#middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 100px;
+    max-width: 1200px;
+}
+
+
+#project1, #project2, #project3, #project4, #project5, #project6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left {
+    margin-right: 50px;
+}
+
+#right {
+    margin-left: 50px;
+}
+
+#contact {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#street {
+    margin-top: 15px;
+}
+
+#city, #email {
+    margin-bottom: 15px;
+}
+
+
